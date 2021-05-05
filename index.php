@@ -1,7 +1,6 @@
 <?php
-require "albums.php";
+    var_dump(__DIR__);
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,19 +12,8 @@ require "albums.php";
 </head>
 
 <body>
-    <div id="app">
-        <?php foreach ($albums as $album) : ?>
-            <div>
-                <h1><?php echo $album['title'] ?></h1>
-                <div class="img_wrap">
-                    <img src="<?php htmlspecialchars($album['poster']); ?>" alt="">
-                </div>
-                <p><small><?php echo $album['author'] ?></small></p>
-                <p><small><?php echo $album['genere'] ?></small></p>
-                <p><small><?php echo $album['year'] ?></small></p>
-
-            </div>
-        <?php endforeach; ?>
+    <div id="app">  
+        <?php include __DIR__ . '/component/card.php'; ?>       
     </div>
 </body>
 
