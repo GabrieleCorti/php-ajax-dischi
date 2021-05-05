@@ -1,6 +1,7 @@
 <?php
-    var_dump(__DIR__);
+    require "albums.php";
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 

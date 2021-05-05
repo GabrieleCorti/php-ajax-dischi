@@ -1,6 +1,3 @@
-<?php
-    require "../albums.php";
-?>
 
 <?php foreach ($albums as $album) : ?>
     <div>
@@ -11,6 +8,5 @@
         <p><small><?php echo $album['author'] ?></small></p>
         <p><small><?php echo $album['genere'] ?></small></p>
         <p><small><?php echo $album['year'] ?></small></p>
-
     </div>
 <?php endforeach; ?>
