@@ -1,12 +1,11 @@
-
 <?php foreach ($albums as $album) : ?>
-    <div>
+    <div class="card">
         <h1><?php echo $album['title'] ?></h1>
         <div class="img_wrap">
             <img src="<?php echo htmlspecialchars($album['poster']); ?>" alt="">
         </div>
-        <p><small><?php echo $album['author'] ?></small></p>
-        <p><small><?php echo $album['genere'] ?></small></p>
-        <p><small><?php echo $album['year'] ?></small></p>
+        <p><small class="title"><?php echo $album['author'] ?></small></p>
+        <p><small><?php echo $album['genre'] ?></small></p>
+        <p><small class="year"><?php echo $album['year'] ?></small></p>
     </div>
 <?php endforeach; ?>

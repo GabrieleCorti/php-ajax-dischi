@@ -1,0 +1,32 @@
+img {
+    width: 100%;
+    display: block;
+}
+
+.card {
+    width: 260px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 25px 15px;
+    border-radius: 22px;
+    -webkit-box-shadow: 1px -3px 19px 5px rgba(0,0,0,0.31); 
+    box-shadow: 1px -3px 19px 5px rgba(0,0,0,0.2);
+}
+
+.img_wrap {
+    width: 200px;
+    margin: auto;
+}
+
+small {
+    font-size: 15px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.year {
+    font-style: italic;
+}
